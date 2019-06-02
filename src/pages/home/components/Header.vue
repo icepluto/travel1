@@ -1,15 +1,15 @@
 <template>
 <div class="header">
   <div class="header-left">
-    <span class="iconfont back-icon"></span>
+    <span class="iconfont back-icon">&#xe658;</span>
   </div>
   <div class="header-input">
-    <span class="iconfont"></span>
+    <span class="iconfont">&#xe611;</span>
     输入城市/游玩/主题
   </div>
   <div class="header-right">
     城市
-    <span class="iconfont"></span>
+    <span class="iconfont">&#xe612;</span>
   </div>
 </div>
 </template>
@@ -21,10 +21,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import '~styles/varibles.styl';
   .header
     display flex
     line-height 3rem
-    background-color blue
+    background-color $bgcolor
     color #ffffff
     .header-left
       width 2rem
