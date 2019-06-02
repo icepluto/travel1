@@ -1,0 +1,1 @@
+#由于Refused to load the image 'http://localhost:8080/favicon.ico' because it violates the following Content Security Policy directive: "default-src 'none'". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback.的问题无法解决，重新开始travel的project
