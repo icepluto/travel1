@@ -1,0 +1,104 @@
+{
+	"ret": true,
+	"data": {
+		"city": "北京",
+		"swiperList": [{
+			"id": "0001",
+			"imgUrl": "http://pic37.nipic.com/20140113/8800276_184927469000_2.png"
+		},
+		{
+			"id": "0002",
+			"imgUrl": "http://pic18.nipic.com/20120204/8339340_144203764154_2.jpg"
+		},
+		{
+			"id": "0003",
+			"imgUrl": "http://pic37.nipic.com/20140113/8800276_184927469000_2.png"
+		},
+		{
+			"id": "0004",
+			"imgUrl": "http://pic18.nipic.com/20120204/8339340_144203764154_2.jpg"
+		}
+	],
+	"iconList": [
+        {
+          "id": "0001",
+          "imgUrl": "static/icon/icon1.png",
+          "desc": "景点门票"
+        }, {
+          "id": "0002",
+          "imgUrl": "static/icon/icon2.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0003",
+          "imgUrl": "static/icon/icon3.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0004",
+          "imgUrl": "static/icon/icon4.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0005",
+          "imgUrl": "static/icon/icon1.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0006",
+          "imgUrl": "static/icon/icon2.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0007",
+          "imgUrl": "static/icon/icon3.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0008",
+          "imgUrl": "static/icon/icon4.png",
+          "desc": "滑雪季"
+        }, {
+          "id": "0009",
+          "imgUrl": "static/icon/icon1.png",
+          "desc": "滑雪季"
+        }
+	  ],
+	  "weekendList": [{
+        "id": "0001",
+        "imgUrl": "static/timg(1).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0002",
+        "imgUrl": "static/timg(2).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0003",
+        "imgUrl": "static/timg(3).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0004",
+        "imgUrl": "static/timg(4).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+	  }],
+	  "recommendList": [{
+        "id": "0001",
+        "imgUrl": "static/timg(1).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0002",
+        "imgUrl": "static/timg(2).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0003",
+        "imgUrl": "static/timg(3).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }, {
+        "id": "0004",
+        "imgUrl": "static/timg(4).jpg",
+        "title": "西安海洋世界",
+        "desc": "浪漫快乐的天堂，是您的最佳选项，西安海洋世界欢迎您"
+      }]
+	}
+}
