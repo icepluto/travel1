@@ -1,7 +1,6 @@
 {
 	"ret": true,
 	"data": {
-		"city": "北京",
 		"swiperList": [{
 			"id": "0001",
 			"imgUrl": "http://pic37.nipic.com/20140113/8800276_184927469000_2.png"

@@ -7,7 +7,7 @@
       v-show="keyword"
     >
       <ul>
-        <li class="search-item border-bottom" v-for="item of list" :key="item.id">
+        <li class="search-item border-bottom" v-for="item of list" :key="item.id" @click="handCityClick(item.name)">
           {{item.name}}
         </li>
         <li class="search-item border-bottom search-bg-item" v-show="!list.length">
@@ -18,6 +18,7 @@
   </div>
 </template>
 <script>
+import Bscroll from 'better-scroll'
 export default {
   name: 'CitySearch',
   props: {
@@ -51,6 +52,12 @@ export default {
         }
         this.list = result
       }, 100)
+    }
+  },
+  methods: {
+    handCityClick (city) {
+      this.$store.commit('changeCity', city)
+      this.$router.push('/')
     }
   },
   mounted () {
