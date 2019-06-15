@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper">
-  <swiper :options="swiperOption" v-if="showSwiper">
+  <swiper class="content" :options="swiperOption" v-if="showSwiper">
     <swiper-slide v-for="item of list" :key="item.id">
       <img class="swiper-img" :src="item.imgUrl" alt="horse">
     </swiper-slide>
@@ -17,9 +17,7 @@ export default {
   data () {
     return {
       swiperOption: {
-        pagination: {
-          el: '.swiper-pagination'
-        },
+        pagination: '.swiper-pagination',
         loop: true
       }
     }
@@ -32,12 +30,19 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
+  .wrapper >>> .swiper-pagination-bullet-active
+    background-color #ffffff
+  .wrapper >>> .swiper-pagination-bullet
+    position relative
+    bottom 7rem
   .wrapper
     overflow hidden
     width 100%
     height 0
     padding-bottom 50%
     background-color #eee
-    .swiper-img
-      width 100%
+    .content
+      height 300px
+      img
+        width 100%
 </style>
