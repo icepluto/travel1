@@ -1,5 +1,6 @@
 <template>
-	<div class="banner">
+  <div>
+	<div class="banner" @click="handleBannerClick">
 		<img class="banner-img" src="/static/banner/ban-1.jpg" alt="horse">
 		<div class="banner-info">
 			<div class="banner-title">welcome xi'an museum</div>
@@ -9,12 +10,34 @@
 			</div>
 		</div>
 	</div>
+	<common-gallery :imgs = 'imgs' v-show="showGallery" @close="handleGalleryClose"></common-gallery>
+  </div>
 </template>
 <script>
+import CommonGallery from 'common/gallery/Gallery'
 export default {
-  name: 'DetailBanner'
+  name: 'DetailBanner',
+  data () {
+    return {
+      showGallery: false,
+      imgs: ['/static/banner/ban-1.jpg',
+        '/static/banner/ban-2.jpg',
+        '/static/banner/ban-3.jpg'
+      ]
+    }
+  },
+  methods: {
+    handleBannerClick () {
+      this.showGallery = true
+    },
+    handleGalleryClose () {
+      this.showGallery = false
+    }
+  },
+  components: {
+    CommonGallery
+  }
 }
-
 </script>
 <style lang="stylus" scoped>
 .banner
