@@ -9,7 +9,6 @@
 		</router-link>
 		详情选择
 	</div>
-  <div class="content"></div>
 </div>
 </template>
 <script>
@@ -65,6 +64,7 @@ export default {
     position fixed
     top 0
     left 0
+    z-index 2
     background-color $bgcolor
     width 100%
     height 2rem
@@ -77,8 +77,4 @@ export default {
 			top 0
 			color #fff
       font-size 10rem
-  .content
-    width 100%
-    height 100rem
-    background-color #221341
 </style>
